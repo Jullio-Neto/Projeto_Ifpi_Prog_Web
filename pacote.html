@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Destino</title>
+</head>
+<body>
+		<table border="0" width="900" align="center">
+		<tr>
+			<td>
+				<img src="logo.png">
+			</td>
+
+			<td align="right">
+				<a href="Aula09.html">Home</a>|
+				<a href="sobre.html">Sobre</a>|
+				<a href="informacao.html">Contato</a>|
+				<a href="destino.html">Destino</a>|
+				<a href="">Pacotes</a>
+			</td>
+		</tr>
+		<tr><td colspan="2"><img src="principal.png"></td></tr>
+		<tr><td>
+			<form method="post">
+				Local de Partida:<br>
+				<input type="text" name="inicio" required="required"><br>
+				Destino:<br>
+				<select name="destino" required='required'>
+					<option selected disabled value="">Selecione</option>
+					<option value="jericoacoara">JERICOACOARA</option>
+					<option value="fernado_noronha">FERNADO DE NORONHA</option></select><br>
+				Hospedagem:<br>
+				<select name="hospedagem" required="required">
+					<option selected disabled value="">Selecione</option>
+					<option value="pousada">POUSADA</option>
+					<option value="hotel">HOTEL</option>
+					<option value="casa">CASA NA PRAIA</option>
+				</select>
+				<br>
+				Data do inicio da Estadia:<br>
+				<input id="date" type="date">
+				<br>
+				Data do Fim da Estadia:<br>
+				<input id="date" type="date">
+				<br>
+				Adutos:<br>
+				<select name="adutos" required="required">
+					<option selected disabled value="">Selecione</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="mais">Mais de 3</option>
+					
+				</select>
+				<br>
+				Crianças:<br>
+				<select name="crianca" required="required">
+					<option selected disabled value="">Selecione</option>
+					<option value="0">Nenhuma</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="mais">Mais de 2</option>
+					
+				</select>
+				<br>
+				Quartos:<br>
+				<select name="quartos" required="required">
+					<option selected disabled value="">Selecione</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="mais">Mais de 3</option>
+					
+				</select>
+				<br>
+				<br>
+				<input type="submit" name="Enviar">
+
+			</form>
+			</td></tr>
+
+</body>
+</html>
