@@ -1,0 +1,19 @@
+#conteudo{
+	font-size: 30px;
+
+}
+.fonteSerif{
+	font-family: "Times New Roman", Verdana, Arial, sans-serif;
+	font-size: 5em;
+	font-style: italic;
+}
+.fonteSans-Serif{
+	font-family: "Verdana", "Times New Roman", "Arial Black", sans-serif;
+	font-size: 2.5em;
+	font-style: oblique;
+}
+.fonteMonospace{
+	font-family: "Courier New", Verdana, Arial, "Arial Black", sans-serif;
+	font-size: 1.25em;
+	font-style: normal;
+}
