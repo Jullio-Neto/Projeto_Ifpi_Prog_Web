@@ -1,0 +1,34 @@
+.noticia{
+	font-family: "opensans-regular", arial, sans-serif;
+	background-color: #F5F5DC;
+	border: 1px solid black;
+	color: #333;
+	font-size: 16px;
+	padding-left: 25px;
+	padding-right: 20px;
+	text-align: justify;
+	line-height: 24px;
+	width: 300px;
+	margin: 20px;
+	float: left;
+
+}
+
+.noticia img{
+	float: left;
+	width: 250px;
+	margin: 1px;
+	padding: 40px;
+}
+body{
+	background:#d6d6d6;
+}
+.noticia p{
+	clear: both;
+    color: #333;
+    font-weight: bold;
+    padding-top: 2em;
+}
+.par{
+    float:right;
+}
