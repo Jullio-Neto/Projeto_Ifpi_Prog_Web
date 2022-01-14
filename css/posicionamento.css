@@ -1,0 +1,86 @@
+#header{
+    display: flex;
+    background: #00FFFF;
+    padding: 3em 0 3em 0;
+    color: white;
+}
+
+#header h1{
+    position: relative;
+    left: 70%;
+}
+
+#menu{
+    display: flex;
+    background: #FF4040;
+    padding: .5em 0 .5em 0;
+    color: white;
+
+}
+
+#menu h2{
+    position: relative;
+    left: 10%;
+}
+
+#grid{
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: auto;
+
+}
+
+#left{
+    display: flex;
+    background: rgb(185, 171, 44);
+    padding: 15em 0 15em 0;
+    color: white;
+
+}
+
+#left h2{
+    position: relative;
+    left: 10%;
+}
+
+#center{
+    display: flex;
+    background: rgb(0, 255, 127);
+    padding: 15em 0 15em 0;
+    color: white;
+
+}
+
+#center h2{
+    position: relative;
+    left: 45%;
+}
+
+#right{
+    display: flex;
+    background: greenyellow;
+    padding: 15em 0 15em 0;
+    color: white;
+
+
+}
+
+#right h2{
+    position: relative;
+    left: 70%;
+}
+
+
+#footer{
+    display: flex;
+    background: rgb(139, 0, 0);
+    padding: 1.50em 0 1.50em 0;
+    color: white;
+
+}
+
+
+#footer h2{
+    position: relative;
+    left: 10%;
+}

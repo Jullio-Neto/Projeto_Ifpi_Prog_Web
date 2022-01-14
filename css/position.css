@@ -1,0 +1,46 @@
+#menu{
+    background: rgb(139, 0, 0);
+    display: flex;
+    justify-content: center;
+    color:white;
+    padding:1em 0 1em 0;
+}
+
+#header{
+    background: rgb(0 ,100 ,0);
+    display: flex;
+    justify-content: center;
+    color:white;
+    padding:3em 0 3em 0;
+}
+
+#grid{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: auto;
+
+}
+
+#content{
+    background: rgb(0 ,250 ,154);
+    display: flex;
+    justify-content: center;
+    color:white;
+    padding:3em 0 3em 0;
+}
+
+#side{
+    background: rgb(127, 255 ,212);
+    display: flex;
+    justify-content: center;
+    color:white;
+    padding:20em 0 20em 0;
+}
+
+#footer{
+    background: rgb(238, 99 ,99);
+    display: flex;
+    justify-content: center;
+    color:white;
+    padding:2.51em 0 2.51em 0;
+}
