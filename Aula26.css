@@ -1,0 +1,82 @@
+.grid{
+    display: grid;
+    grid-template-areas: 
+        "logo nav nav"
+        "logo conteudo section"
+        "logo container container"
+    ;
+
+    width: 900px;
+    height: 600px;
+
+    margin: 2em;
+}
+
+
+.container{
+    display: grid;
+    grid-template-areas: 
+        "header main footer"
+    ;
+
+    grid-area: container;
+}
+
+
+.logo{
+    grid-area: logo;
+    background-image: url("7.jpg");
+    background-size: cover;
+    margin: 1em;
+    border-radius: 1em;
+}
+
+
+.nav{
+    grid-area: nav;
+    background-image: url("9.jpg");
+    background-size: cover;
+    margin: 1em;
+    border-radius: 1em;
+}
+
+.conteudo{
+    grid-area: conteudo;
+    background-image: url("13.jpg");
+    background-size: cover;
+    margin: 1em;
+    border-radius: 1em;
+}
+
+.section{
+    grid-area: section;
+    background-image: url("8.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 1em;
+    border-radius: 1em;
+}
+
+.header{
+    grid-area: header;
+    background-image: url("12.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 1em;
+    border-radius: 1em;
+}
+
+.main{
+    grid-area: main;
+    background-image: url("10.jpg");
+    margin: 1em;
+    border-radius: 1em;
+
+}
+
+.footer{
+    grid-area: footer;
+    background-image: url("11.jpg");
+    margin: 1em;
+    border-radius: 1em;
+}
